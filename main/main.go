@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/gophercises/urlshort"
+	"github.com/Amar-Gill/urlshort"
 )
 
 func main() {
@@ -42,4 +42,3 @@ func defaultMux() *http.ServeMux {
 func hello(w http.ResponseWriter, r *http.Request) {
 	fmt.Fprintln(w, "Hello, world!")
 }
-
